@@ -1,0 +1,43 @@
+.analytics-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 1350px;
+  align-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+  
+  .card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    width: calc(49% - 25px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .buttons {
+    display: flex;
+    margin-top: 14px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+  .card-header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .progress-bars {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  

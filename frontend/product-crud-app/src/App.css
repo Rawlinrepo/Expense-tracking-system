@@ -1,0 +1,194 @@
+.App {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.app-container{
+  background-color: rgba(2, 2, 2, 0) ;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  max-height: 100vh;
+  background-image: radial-gradient(rgb(29, 27, 27));
+
+}
+
+.text{
+  font-size: 40px;
+  color: white;
+}
+
+.profile-avatar {
+  width: 80px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #282c34;
+  padding: 10px;
+  position: fixed;
+}
+
+.logo {
+  width: 75px;
+  height: auto;
+  margin-left: -20px;
+  margin-top: -10px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.navbar-expand-lg {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  position: fixed;
+}
+
+.navbar a {
+  color: #61dafb;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2em;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+form {
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  width: 1000px;
+}
+
+form input select {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #21a1f1;
+}
+
+.product-list {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar {
+  display: block;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #282c34;
+  padding: 10px 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+  color: #61dafb;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  color: #21a1f1;
+}
+
+.navbar .logo {
+  font-size: 1.5em;
+  color: #61dafb;
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.product-details {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.product-details h2 {
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin-bottom: 10px;
+}
+
+.row{
+  display: block;
+}
+
+.table {
+  background-color: transparent;
+  border-collapse: collapse;
+  border-radius: 100px;
+}
+
+.table th, .table td {
+  border: none;
+}
+
+.table tr {
+  border-bottom: 1px solid rgb(121, 65, 65);
+}
+
+.table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.table td {
+  color: white;
+  position: relative;
+  vertical-align: middle;
+  font-size: 22px;
+}
+
+.table td::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: rgb(121, 65, 65);
+  bottom: 0;
+  left: 0;
+  display: block;
+}
