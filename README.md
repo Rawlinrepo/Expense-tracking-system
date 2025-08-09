@@ -1,53 +1,64 @@
-Expense Tracking System
-A full-stack web application to manage, track, and visualize expenses and credits.
-Built with React, Node.js, Express, MySQL, and JWT authentication, this app provides a secure and user-friendly interface for tracking financial activities with insightful charts and progress bars.
+# Expense Tracking System
 
-Features : 
-User Authentication with JSON Web Tokens (JWT)
-Add, View, and Delete expenses & credits
-Visual Insights using charts and progress bars
-Tracks transactions over time
-MySQL Database for persistent storage
-Secure API routes with token-based authentication
+A full-stack web application to manage, track, and visualize expenses and credits.  
+Built with **React**, **Node.js**, **Express**, **MySQL**, and **JWT authentication**, this app provides a secure and user-friendly interface for tracking financial activities with insightful charts and progress bars.  
 
-Tech Stack
-Frontend: React, Axios, Chart.js
-Backend: Node.js, Express.js
-Database: MySQL
-Authentication: JWT (JSON Web Token)
+## Dashboard
+![Dashboard Screenshot](screenshots/Dashboard.png)
+## Insights
+![Dashboard Screenshot](screenshots/Analysis.png)
+## Register Page
+![Dashboard Screenshot](screenshots/Register.png)
+## Login Page
+![Dashboard Screenshot](screenshots/Login.png)
+---
 
-Installation & Setup
-1. Clone the Repository
-bash
-Copy
-Edit
+## Features
+- User Authentication with JSON Web Tokens (JWT)  
+- Add, View, and Delete expenses & credits  
+- Visual Insights using charts and progress bars  
+- Tracks transactions over time  
+- MySQL Database for persistent storage  
+- Secure API routes with token-based authentication  
+
+---
+
+## Tech Stack
+**Frontend**: React, Axios, Chart.js  
+**Backend**: Node.js, Express.js  
+**Database**: MySQL  
+**Authentication**: JWT (JSON Web Token)  
+
+---
+
+## Installation & Setup
+
+### 1️ Clone the Repository
+```bash
 git clone https://github.com/Rawlinrepo/Expense-tracking-system.git
 cd Expense-tracking-system
-
-3. Install Backend Dependencies
-bash
-Copy
-Edit
+```
+---
+### 2️ Install Backend Dependencies
+```bash
 cd backend
 npm install
-
-4. Install Frontend Dependencies
-bash
-Copy
-Edit
+```
+### 3️ Install Frontend Dependencies
+```bash
 cd ../frontend
 npm install
+```
+---
 
-5. Start the Backend Server
-bash
-Copy
-Edit
+### 4️ Start the Backend Server
+```bash
 cd backend
 node server.js
+```
 
-6. Start the Frontend
-bash
-Copy
-Edit
+### 5️ Start the Frontend
+```bash
 cd ../frontend
 npm start
+```
